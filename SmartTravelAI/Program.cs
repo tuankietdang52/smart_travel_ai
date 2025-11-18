@@ -1,16 +1,18 @@
 using DotNetEnv;
 using SmartTravelAI.Config;
 
+Env.Load();
 var builder = WebApplication.CreateBuilder(args);
 
-Env.Load();
-
 builder.Services.AddOpenApi();
+builder.Services.AddControllers();
 builder.ConfigureSwagger();
 
 builder.WithCORS()
-       .WithAuthorization()
-       .WithAuthentication();
+       .WithAuthentication()
+       .WithAuthorization();
+
+builder.UsePostgresDatabase();
 
 var app = builder.Build();
 
@@ -27,3 +29,5 @@ app.MapControllers();
 app.UseCors(AuthConfig.CorsPolicyKey);
 
 app.Run();
+
+Console.WriteLine("Running...");

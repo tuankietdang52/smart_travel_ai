@@ -10,7 +10,7 @@ namespace SmartTravelAI.Config
 
         public static WebApplicationBuilder WithAuthorization(this WebApplicationBuilder builder)
         {
-            builder.Services.AddAuthentication();
+            builder.Services.AddAuthorization();
             builder.Services.AddEndpointsApiExplorer();
             return builder;
         }
