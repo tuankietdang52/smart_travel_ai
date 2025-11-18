@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tk1223/Code/Hackathon/smart_travel_ai/SmartTravelAI/SmartTravelAI.csproj": {}
+  },
+  "projects": {
+    "/home/tk1223/Code/Hackathon/smart_travel_ai/SmartTravelAI/SmartTravelAI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tk1223/Code/Hackathon/smart_travel_ai/SmartTravelAI/SmartTravelAI.csproj",
+        "projectName": "SmartTravelAI",
+        "projectPath": "/home/tk1223/Code/Hackathon/smart_travel_ai/SmartTravelAI/SmartTravelAI.csproj",
+        "packagesPath": "/home/tk1223/.nuget/packages/",
+        "outputPath": "/home/tk1223/Code/Hackathon/smart_travel_ai/SmartTravelAI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tk1223/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Google_GenerativeAI": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
