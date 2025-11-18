@@ -1,0 +1,61 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+# Uncomment if you don’t want to check in NuGet restore results
+# *.dll
+# *.exe
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Dotnet tools
+.dotnet/
+
+# Publish outputs
+publish/
+wwwroot/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+.idea/
+
+# Test results
+TestResult.xml
+*.TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Others
+*.bak
+*.tmp
+*.swp
