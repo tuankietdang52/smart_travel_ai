@@ -13,6 +13,7 @@ builder.WithCORS()
        .WithAuthorization();
 
 builder.UsePostgresDatabase();
+builder.ConfigureMapster();
 
 var app = builder.Build();
 
