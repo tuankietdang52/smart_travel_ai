@@ -36,6 +36,7 @@ $RECYCLE.BIN/
 
 # Dotnet tools
 .dotnet/
+.config
 
 # Publish outputs
 publish/
