@@ -6,8 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 Env.Load();
 
 builder.Services.AddOpenApi();
-builder.ConfigureSwagger()
-       .UseCORS()
+builder.ConfigureSwagger();
+
+builder.WithCORS()
        .WithAuthorization()
        .WithAuthentication();
 

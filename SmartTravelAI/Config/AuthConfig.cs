@@ -45,7 +45,7 @@ namespace SmartTravelAI.Config
             return builder;
         }
 
-        public static WebApplicationBuilder UseCORS(this WebApplicationBuilder builder)
+        public static WebApplicationBuilder WithCORS(this WebApplicationBuilder builder)
         {
             string origin =
                 builder.Configuration.GetConnectionString("Frontend")
